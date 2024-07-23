@@ -122,7 +122,7 @@ transition-property: box-shadow, transform;
 
 /*----------------------------------------BODY----------------------------------*/
 body{
-  background-image: url('/images/b471d641c2fb84308dfb016cbf4ac6bb.gif');
+  background-image: url('./images/b471d641c2fb84308dfb016cbf4ac6bb.gif');
   background-attachment: fixed;
       background-repeat: no-repeat;
       background-position: center;
