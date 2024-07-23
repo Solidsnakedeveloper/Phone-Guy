@@ -1,0 +1,366 @@
+
+/*---------------------------------FIRST BOX-----------------------------------*/
+#box1.box1{
+    background-color: rgba(243, 241, 241, 0.2);    
+    inline-size: 500px ;
+    block-size: 400px;
+    border-radius: 40px;
+    margin: auto;
+margin-block-start: 300px;
+position: relative;
+opacity: 0.9;
+}
+
+
+#text1.text{
+    position: absolute;
+    text-align: center;
+    color: rgb(221, 16, 30);
+font-family: Pixelify Sans;
+ font-size: 50px;
+  
+margin-inline-start: 135px;
+}
+
+
+
+.text2{
+    color: red;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    margin-inline-start: 0px;
+    inset-block-start: 220px;
+    inset-inline-start: 30px;
+   
+    
+}
+
+.text3{
+    color: rgb(240, 235, 235);
+    text-align: center;
+     font-family:  Pixelify Sans;
+    text-transform: capitalize;
+    margin-inline-start: 40px;
+    position: absolute;
+    inset-block-start: 110px;
+    inset-inline-end: 8px;
+inset-inline-start: -5px;
+
+   
+}
+
+
+
+
+
+
+/*------------------------ADD TO DISCORD BUTTON-----------------------------------*/
+
+.btn{
+ background-color: red;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 30px;
+    block-size: 50px;
+ margin: auto;
+margin-inline-start: 190px;
+inset-block-end: 50px;
+position: absolute;
+font-family: fantasy;
+padding: 15px;
+box-shadow: 2px 2px;
+cursor: pointer;
+display: inline-block;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: box-shadow, transform;
+transition-property: box-shadow, transform;
+
+}
+
+
+
+
+
+
+
+
+
+/*----------------------------------------- INVITE BUTTON ANIMATION------------------------------*/
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(198, 20, 20, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+  
+
+
+
+
+#color{
+   background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.phoneguy{
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size: cover;
+ 
+   position: fixed;
+   z-index: 1000;
+ inset-block-end: -25px;
+}
+
+/*----------------------------------------BODY----------------------------------*/
+body{
+  background-image: url('/images/b471d641c2fb84308dfb016cbf4ac6bb.gif');
+  background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      
+      margin: 0px;
+  }
+
+
+
+
+
+/*--------------------------------NAVBAR-----------------------------*/
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgba(119, 17, 17, 0.7);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+   
+}
+
+.dropdown{
+    overflow: hidden;
+    float: inline-end;
+}
+
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #161414;
+    min-inline-size: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+
+
+
+  .dropdown-content a {
+    float: none;
+    color: rgb(29, 27, 27);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #e9e4e4;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+
+  a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin-inline-start: 15px;
+   
+}
+
+
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10% );
+    transition-duration: 1.5s;
+}
+
+
+.navbar li{
+    float: inline-end;
+   
+}
+
+
+
+
+
+
+/*-----------------------BOX 2---------------------------------*/
+#box.box2{
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 100px;
+    inline-size: 1000px;
+    block-size: 220px;
+inset-block-end: -450px;
+position: relative;
+text-align: center;
+font-size: 50px;
+line-height:0.01cm;
+font-family: Bebas Neue;
+color: red;
+border-radius: 30px;
+inset-inline-start: 125px;
+
+
+
+}
+
+
+/*--------------------------BOX 3--------------------------*/
+#box3{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 100px;
+    inline-size: 800px;
+    block-size: 350px;
+    inset-block-end: -500px;
+    position: relative;
+    font-size: 50px;
+    line-height: 5px;
+    color: red;
+    border-radius: 40px;
+    inset-inline-end: -220px;
+    padding: 100px;
+  inset-block-end: -1000px;
+margin: 0;
+
+}
+
+
+#imgExample{
+    inline-size: 380px;
+    float: inline-end;
+padding: 10px;
+position: absolute;
+inset-block-start: 20px;
+border-radius: 40px;
+inset-inline-end: -1px;
+display: block;
+}
+
+
+
+
+.navbar {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  inset-block-start: 0;
+  inline-size: 100%;
+  z-index: 1000;
+  
+}
+
+
+
+
+
+.about-us {
+  inline-size: 80%;
+  max-inline-size: 600px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  margin: auto;
+font-family: Pixelify Sans;
+margin-block-start: 250px;
+
+}
+
+.about-us h2 {
+  text-align: center;
+  color: #050505;
+  margin-block-start: 0;
+  font-family: Pixelify Sans;
+}
+
+
+
+
+
+#hereLink:hover {
+  background-color: rgb(6, 8, 8);
+  border-radius: 5px;
+  transition-duration: 1s; 
+}
+
+
+
+
+.code{
+  margin: 2px 4px;
+}
+
+
+
+
+
